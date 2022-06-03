@@ -16,11 +16,10 @@ curl -X 'GET' -d '' -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,i
 
 Why not?
 
-## Why Kinhentinho?
 
-Its '500', in portuguese diminutive form (-inho, as my Spanish-speaking friends will mock me - I'm being preemptive)
+## What about healthchecks?
 
-The 'k' is just a hint to where it was meant to be used
+Good one! Paths `/` and `/health` actually return status code `200` *on purpose*.
 
 ## Which port?
 
@@ -31,3 +30,10 @@ e.g., to make it listen on 8080, make `LISTEN_ADDR` equal to `:8080`
 # TODO
 
   * Make it smaller (with `scratch` image)
+
+## Why this name?
+
+'Kinhentinho' means '500', but in portuguese diminutive form (*-inho*, as my Spanish-speaking friends will mock me - I'm being preemptive)
+
+The 'k' is just a hint to where it was meant to be used
+ 
