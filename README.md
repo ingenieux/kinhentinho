@@ -1,6 +1,6 @@
 # kinhentinho
 
-## Simply echoes the current request in curl-able form, thanks to [http2curl](https://github.com/moul/http2curl)
+Simply echoes the current request in curl-able form, thanks to [http2curl](https://github.com/moul/http2curl)
 
 ```
 $ docker run -i --net=host public.ecr.aws/s8t0c2z4/kinhentinho:latest # ...then fire up ngrok http 8000 and browse it
